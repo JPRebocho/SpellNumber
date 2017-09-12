@@ -127,7 +127,7 @@ public class NumberToSpell
     return "error";
   }
   
-  // returns string spelling the decimal part of numbers higher than 19
+  // returns string spelling the dezenas part of numbers higher than 19
   public String SpellDoubleDigit(int num)
   {
     switch(num){
@@ -156,7 +156,7 @@ public class NumberToSpell
     return "error";
   }
   
-  // given a number from 1 till 99, with decimal part d and unity part u, it decides which method to use and spells it correctly
+  // given a number from 1 till 99, with dezenas part d and unidade part u, it decides which method to use and spells it correctly
   // returns string spelling the number from 1 up to 99
   public String SmartSpell(int d, int u)
   {
